@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TL;DR Extension - Privacy Policy</title>
+    <style>
+        body { font-family: Arial, sans-serif; max-width: 800px; margin: 0 auto; padding: 20px; line-height: 1.6; }
+        h1, h2 { color: #333; }
+        .last-updated { color: #666; font-style: italic; }
+    </style>
+</head>
+<body>
+    <h1>Privacy Policy for TL;DR Extension</h1>
+    <p class="last-updated">Last updated: August 21, 2025</p>
+
+    <h2>1. Information We Collect</h2>
+    <p><strong>We do not collect, store, or transmit any personal data.</strong></p>
+    
+    <h2>2. Data Processing</h2>
+    <p>The TL;DR Extension processes webpage content locally and sends it to your chosen AI provider (OpenAI, Anthropic, or Google) only when you explicitly click the "Generate Summary" button. This processing is:</p>
+    <ul>
+        <li>On-demand only (no automatic processing)</li>
+        <li>Temporary (content is not stored)</li>
+        <li>Limited to 8000 characters for privacy</li>
+        <li>Automatically redacted of sensitive information (emails, phone numbers)</li>
+    </ul>
+
+    <h2>3. API Key Storage</h2>
+    <p>Your API keys are stored securely using Chrome's built-in sync storage and are never transmitted to our servers. They are only used to authenticate with your chosen AI provider.</p>
+
+    <h2>4. Permissions Justification</h2>
+    
+    <h3>activeTab Permission</h3>
+    <p><strong>Purpose:</strong> Required to extract text content from the current webpage when you click the extension icon.</p>
+    <p><strong>Usage:</strong> Only activates when you explicitly click "Generate Summary" - no background monitoring or automatic access.</p>
+    
+    <h3>storage Permission</h3>
+    <p><strong>Purpose:</strong> Required to securely store your API configuration (provider choice and API key) locally in Chrome.</p>
+    <p><strong>Usage:</strong> Only stores your settings - no webpage content or personal data is ever stored.</p>
+    
+    <h3>scripting Permission</h3>
+    <p><strong>Purpose:</strong> Required to inject content extraction script into webpages when you request a summary.</p>
+    <p><strong>Usage:</strong> Only executes when you click "Generate Summary" to extract readable text from the current page.</p>
+    
+    <h3>tabs Permission</h3>
+    <p><strong>Purpose:</strong> Required to identify the current active tab for content extraction.</p>
+    <p><strong>Usage:</strong> Only accesses the currently active tab when you explicitly request a summary.</p>
+
+    <h2>5. Remote Code and Host Permissions</h2>
+    <p><strong>We do not use any remote code.</strong> All extension code is packaged locally. We do not request host permissions for specific websites.</p>
+
+    <h2>6. Third-Party Services</h2>
+    <p>When you generate a summary, content is sent to your chosen AI provider:</p>
+    <ul>
+        <li><strong>OpenAI:</strong> Subject to OpenAI's Privacy Policy</li>
+        <li><strong>Anthropic:</strong> Subject to Anthropic's Privacy Policy</li>
+        <li><strong>Google Gemini:</strong> Subject to Google's Privacy Policy</li>
+    </ul>
+    <p>We recommend reviewing these providers' privacy policies.</p>
+
+    <h2>7. Data Retention</h2>
+    <p>We do not retain any data. Webpage content is processed temporarily and immediately discarded after generating your summary.</p>
+
+    <h2>8. User Control</h2>
+    <p>You have complete control over:</p>
+    <ul>
+        <li>When content is processed (only on your explicit request)</li>
+        <li>Which AI provider to use</li>
+        <li>Your API key storage and management</li>
+        <li>Uninstalling the extension at any time</li>
+    </ul>
+
+    <h2>9. Contact Information</h2>
+    <p>For privacy-related questions, contact: <a href="mailto:tony@tonykipkemboi.com">tony@tonykipkemboi.com</a></p>
+
+    <h2>10. Changes to This Policy</h2>
+    <p>We will update this policy if our privacy practices change. The "Last updated" date will reflect any changes.</p>
+</body>
+</html>
